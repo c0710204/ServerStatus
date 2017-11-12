@@ -3,7 +3,7 @@
 normal=$(tput sgr0)
 bold=$(tput bold)
 
-PYTHON_CLIENT="https://raw.githubusercontent.com/c0710204/ServerStatus/master/clients/client.py"
+PYTHON_CLIENT="https://raw.githubusercontent.com/c0710204/ServerStatus/master/clients/client-linux.py"
 PYTHONPSUTIL_CLIENT="https://raw.githubusercontent.com/c0710204/ServerStatus/master/clients/client-psutil.py"
 BASH_CLIENT="https://raw.githubusercontent.com/c0710204/ServerStatus/master/clients/client.sh"
 
