@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Update by : https://github.com/tenyue/ServerStatus
 # 支持Python版本：2.7 to 3.5
