@@ -384,11 +384,14 @@ fi
 
 if [ ! $SKIP ]; then
 # update for auto
-	loc=`curl http://www.maxmind.com/app/locate_my_ip |awk '/<table>/{RS=RS RS}/tblProduct1/'`
+	city=`curl ipinfo.io|grep city|sed "s/\"city\"://g"|sed "s/\"//g"|sed "s/,//g"`
+	reg=`curl ipinfo.io|grep region|sed "s/\"region\"://g"|sed "s/\"//g"|sed "s/,//g"`
+	country=`curl ipinfo.io|grep country|sed "s/\"country\"://g"|sed "s/\"//g"|sed "s/,//g"`
+	loc="$city$reg$country"
 	echo
 	echo "In case you haven't already added the new client to the master server:"
 	echo
-
+	
 	echo -e "\t\t{"
 	echo -e "\t\t\t\"name\": \"Change me\","
 	echo -e "\t\t\t\"type\": \"Change me\","
