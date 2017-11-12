@@ -1,5 +1,9 @@
 # ServerStatus中文版：   
 
+```
+wget https://raw.githubusercontent.com/c0710204/ServerStatus/master/other/client-setup.sh
+bash client-setup.sh
+```
 * ServerStatus中文版是一个酷炫高逼格的云探针、云监控、服务器云监控、多服务器探针~，该云监控（云探针）是ServerStatus（ https://github.com/BotoX/ServerStatus ）项目的中文（优化）版。
 * 在线演示：https://tz.cloudcpp.com    
 
